@@ -110,27 +110,8 @@ button {
 button:hover {
     background-color: #2980b9;
 }
-/* Target the navigation list using its class */
-.main-nav {
-  list-style-type: none; /* Removes the bullet points */
-  display: flex;         /* Puts items in a row instead of a column */
-  justify-content: center; /* Centers the items horizontally */
-  padding: 0;            /* Removes default padding */
-  margin: 0;             /* Removes default margin */
-  background-color: #333; /* Adds a dark background color */
-}
-
-/* You can also style the links inside the list */
-.main-nav li a {
-  color: white;          /* Sets link text color to white */
-  text-decoration: none; /* Removes the underline from links */
-  padding: 15px 20px;    /* Adds some space around the links */
-  display: block;        /* Makes the entire area clickable */
-}
-
-/* Add a hover effect for a nice user experience */
-.main-nav li a:hover {
-  background-color: #555; /* Changes background color on hover */
+#hero h1, #about h2, #products h2, #events h2, #contact h2 {
+    margin-bottom: 1rem;
 }
 #contact-form {
     display: flex;
